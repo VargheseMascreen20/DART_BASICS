@@ -1,0 +1,37 @@
+.............<< CONSTRUCTOR >>..................
+
+> CONSTRUCTORS ARE SPECIAL TYPE OF FUNCTION WITH THE SAME NAME AS OF 
+  THE CLASS USED TO INITIALIZE THE VARIABLES OF THE CLASS.
+
+> IN DART THE COMPILER MAKES A DEFAULT CONSTRUCTOR, IN CASE THE USER 
+  DOESN'T.
+
+> CONSTRUCTOR DOESN'T RETURN A VALUE.
+
+> THERE ARE 3 TYPES OF CONSTRUCTOR 
+    1. DEFAULLT CONSTRUCTOR - THESE ARE MADE AUTOMATICALLY BY THE DART 
+       COMPILER AND DOES NOT CONTAIN ANY PARAMETERS.
+    2. PARAMETERIZED CONSTRUCTOR - THESE ARE CONSTRUCTORS WHICH CONTAINS 
+       SOME PARAMETES INSIDE IT.
+    3. NAMED CONSTRUCTOR - As you can’t define multiple constructors with the same name, 
+       this type of constructor is the solution to the problem.They allow
+       the user to make multiple constructors with a different name.
+       EG :- ClassName.DEFAULT();
+             ClassName.NAMED();
+             ClassName.PARAMETERIZED(String x, int y){
+                 print();
+             }
+
+> SYNTAX: 
+
+    void main(){
+        var a = new ClassName("Peter",30);
+    }
+    class ClassName({
+        ClassName(String s, int n){
+            print("name is $s");
+            print("age is $n" );
+        }
+
+    }
+> 
