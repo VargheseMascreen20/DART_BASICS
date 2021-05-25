@@ -7,10 +7,16 @@
 // > WE CAN CALL STATIC VARIABLES DIRECTLY INSIDE A STATIC METHOD.
 // > SYNTAX - static data_type variable_name;
 // > STATIC METHOD FOLLOWS THE SAME PRINCIPLES AS THE STATIC VARIABLES.
-// > NON STATIC VARIABLES CANNOT BE ACCESED INSIDE A STATIC METHOD. 
+// > NON STATIC VARIABLES CANNOT BE ACCESED INSIDE A STATIC METHOD.
 
 class Abc {
   static String Name = "";
+  static String x = "Inside static method";
+
+  static printStaticMethod() {
+    print(x);
+  }
+
   String surname = "";
   int age = 0;
 
@@ -22,16 +28,19 @@ class Abc {
 }
 
 void main() {
-  Abc.Name = "Shane";
+  
+  Abc.printStaticMethod();  //Accessing static method
+  Abc.Name = "Shane";       //Accessing static variable 
+  
   Abc obj = new Abc();
   obj.surname = "Mathew";
   obj.age = 23;
-  print("object 1");
+  print("\n......object 1.......");
   obj.Show();
 
   Abc obj2 = new Abc();
   obj2.surname = "Michael";
   obj.age = 65;
-  print("object 2");
+  print("\n......object 2........");
   obj2.Show();
 }
