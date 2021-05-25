@@ -1,0 +1,9 @@
+
+..................<< Inheritance >>...................
+  > Inheritance is the property of deriving properties and
+    methods of another class.
+  > There are 3 types of Inheritance in dart
+        1.Single Inheritance
+        2.Multilevel Inheritance
+        3.Hierarchial Inheritance
+        4.Multiple Inheritance(Not supported by dart) 
