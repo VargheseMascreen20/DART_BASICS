@@ -1,0 +1,29 @@
+..................<< EXCEPTION >>..................
+> EXCEPTIONS ARE UNWANTED CONDITIONS THAT AFFECTS THE 
+  NORMAL FLOW OF THE PROGRAM.
+> DART EXCEPTION = RUNTIME ERRORS - ERRORS ARISING DURING 
+  THE EXECUTION OF THE PROGRAM. 
+> IF THE PROGRAM DOES NOT RETURN AN ERROR DURING THE COMPILE TIME &
+  THE PROGRAM RUNS INTERNALLY AND THE COMPILER RETURNS AN
+  INAPPROPRIATE CONDITION ,THIS IS CALLED DART EXCEPTION.
+> WE USE EXCEPTION HANDLING TO HANDLE THE RUNTIME ERRORS.
+> THE BUILD IN DART EXECPTIONS ARE :-
+    
+    1.DEFFERED LOAD EXCEPTION - CANNOT LOAD A DEFAULT LIBRARY.
+    
+    2.FORMAT EXCEPTION - ENTERING WRONG VALUE EG:- ENTERING INT VALUE 
+                         WHEN ASKED TO ENTER STRING.
+    
+    3.INTEGER DIVISION BY ZERO - TRYING TO DIVIDE A NUMBER BY ZERO.
+
+    4.IOEXCEPTION - BASE CLASS FOR ALL IO EXCEPTIONS.
+
+    5.ISOLATESPAWN EXCEPTION - CANNOT CREATE AN ISOLATE. 
+                     isolate - An isolate is what all Dart code runs in. It's 
+                               like a little space on the machine with its own, 
+                               private chunk of memory and a single thread running
+                               an event loop. An isolate has its own memory and 
+                               a single thread of execution that runs an event loop.
+
+    6.TIME OUT EXCEPTION - SCHEDULED TIMEOUT HAPPENS WHILE WAITING FOR AN ASYNCHRONOUS RESULT.
+                           
